@@ -14,7 +14,7 @@ function App() {
     <div className="page">
       {/* {modalOpen ? <Modal /> : null} */}
       <Modal isOpen={modalOpen} setIsOpen={setModalOpen}>
-        <div>Wallace Front End</div>
+        <p>Wallace Front End</p>
       </Modal>
       <div>
         <button onClick={handleClick}> Abrir Modal </button>
